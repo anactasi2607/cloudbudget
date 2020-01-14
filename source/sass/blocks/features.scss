@@ -1,3 +1,32 @@
 .features {
+    padding: 62px 0;
     background-color: #FAFAFA;
+}
+
+.features__title {
+    text-align: center;
+}
+
+.features__list {
+    @include list;
+    display: flex;
+}
+
+.features__item {
+    text-align: center;
+}
+
+.features__item-title {
+    @include zero;
+    @include font(18px, 22px, bold);
+}
+
+.features__item-text {
+    @include zero;
+    @include font(12px, 18px);
+}
+
+.features__item-link {
+    @include font(12px, 18px, bold);
+    color: #ED4C5C;
 }
