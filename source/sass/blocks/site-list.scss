@@ -1,0 +1,9 @@
+.site-list {
+ @include list;
+ display: flex;
+}
+
+.site-list__link {
+  color: #ffffff;
+}
+
