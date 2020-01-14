@@ -39,12 +39,12 @@
                 <div class="page-header__language language-toggle">
                     <span class="language-toggle__text">en</span>
                 </div>
-                <button class="page-header__button login-button button">Login</button>
+                <button class="page-header__button page-header__button--1 login-button button">Login</button>
             </div>
             <div class="page-header__bottom-column">
                 <h1 class="page-header__title">CloudBudget</h1>
-                <p class="page-header__text">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of Up to €4.99</p>
-                <button class="page-header__button signup-button button">Sign Up</button>
+                <p class="page-header__text">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of<br> Up to €4.99</p>
+                <button class="page-header__button page-header__button--2 signup-button button">Sign Up</button>
             </div>
         </div>
     </header>
@@ -77,8 +77,6 @@
                         <p class="features__item-text">Our software is made so you can access and manage your budget</p>
                         <a class="features__item-link" href="#">Read More</a>
                     </li>
-                    <li class="features__item"></li>
-                    <li class="features__item"></li>
                 </ul>
             </section>
             <section class="page-main__technology technology">
@@ -122,6 +120,31 @@
                         </a>
                     </li>
                 </ul>
+                <ul class="promo__slider slider">
+                    <li class="slider__item"></li>
+                    <li class="slider__item"></li>
+                    <li class="slider__item"></li>
+                </ul>
+            </section>
+            <section class="page-main__contact contact">
+                <h2 class="contact__title">Contact</h2>
+                <p class="contact__text">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+                <form class="contact__form form" action="https://echo.htmlacademy.ru" method="post">
+                    <label class="form__first-label visually-hidden" for="first-name">First Name:</label>
+            	    <input class="form__first-name" id="first-name" type="text" name="first-name" placeholder="First Name">
+                    <label class="modal-label visually-hidden" for="last-name">Last Name:</label>
+                    <input class="form__last-name" id="last-name" type="text" name="last-name" placeholder="Last Name">
+                    <label class="form__tel-label visually-hidden" for="form-tel">Phone Number:</label>
+                    <input class="form__tel" id="form-tel" type="tel" name="form-tel" placeholder="Phone Number">
+                    <label class="form__select-label visually-hidden" for="form-select">Select Service:</label>
+                    <select class="form__select" name="service" id="form-select">
+                        <option disabled selected style="display:none;">Select Service</option>
+                        <option>Service-1</option>
+                        <option>Service-2</option>
+                        <option>Service-3</option>
+                    </select>
+                    <button class="form__button button" type="submit">Submit Now</button>
+                </form>
             </section>
         </div>
     </main>

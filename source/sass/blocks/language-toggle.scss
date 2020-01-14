@@ -1,12 +1,12 @@
 .language-toggle {
     position: relative;
-    padding: 0 50px;
+    padding: 11px 40px;
 
     &::before {
         content: "";
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 4px;
+        left: -3px;
         width: 32px;
         height: 32px;
         background-image: url("../img/icon-flag.svg");
@@ -17,12 +17,12 @@
     &::after {
         content: "";
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 17px;
+        right: 14px;
         width: 13px;
         height: 7px;
         border-left: 7px solid transparent;
         border-right: 7px solid transparent;
-        border-top: 13px solid #ffffff;
+        border-top: 8px solid #fff;
     }
-}
+}   
