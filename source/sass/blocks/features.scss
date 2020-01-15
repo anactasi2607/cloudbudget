@@ -5,6 +5,7 @@
 
 .features__title {
     text-align: center;
+    margin-bottom: 75px;
 }
 
 .features__list {
@@ -14,19 +15,69 @@
 
 .features__item {
     text-align: center;
+    width: 350px;
+    padding: 157px 30px 60px;
+}
+
+.features__item--1 {
+    background-image: url("../img/features-img-1@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/features-img-1@2x.jpg");
+      background-size: 350px auto;
+    }
+}
+
+.features__item--2 {
+    background-image: url("../img/features-img-2@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/features-img-2@2x.jpg");
+      background-size: 350px auto;
+    }
+}
+
+.features__item--3 {
+    background-image: url("../img/features-img-3@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/features-img-3@2x.jpg");
+      background-size: 350px auto;
+    }
+}
+
+.features__item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .features__item-title {
     @include zero;
     @include font(18px, 22px, bold);
+    margin-bottom: 17px;
 }
 
 .features__item-text {
     @include zero;
     @include font(12px, 18px);
+    margin-bottom: 26px;
 }
 
 .features__item-link {
     @include font(12px, 18px, bold);
     color: #ED4C5C;
+}
+
+.features__item-block {
+    width: 293px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 32px 32px 24px;
+    border: 1px solid #ffffff;
 }
