@@ -1,4 +1,28 @@
 .promo {
+    display: flex;
+    padding: 94px 0 77px;
+
     color: #ffffff;
     background-color: #ED4C5C;
+}
+
+.promo__left {
+    padding: 29px 0;
+    width: 445px;
+}
+
+.promo__text {
+    @include zero;
+    @include font(14px, 20px);
+    padding-right: 7px;
+    margin-bottom: 44px;
+}
+
+.promo__title {
+    margin-bottom: 44px;
+}
+
+.promo__right {
+    width: 533px;
+    height: 311px;
 }
