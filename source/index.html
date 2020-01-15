@@ -141,24 +141,28 @@
                 </div>
             </section>
             <section class="page-main__contact contact">
-                <h2 class="contact__title title">Contact</h2>
-                <p class="contact__text">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
-                <form class="contact__form form" action="https://echo.htmlacademy.ru" method="post">
-                    <label class="form__first-label visually-hidden" for="first-name">First Name:</label>
-            	    <input class="form__first-name" id="first-name" type="text" name="first-name" placeholder="First Name">
-                    <label class="modal-label visually-hidden" for="last-name">Last Name:</label>
-                    <input class="form__last-name" id="last-name" type="text" name="last-name" placeholder="Last Name">
-                    <label class="form__tel-label visually-hidden" for="form-tel">Phone Number:</label>
-                    <input class="form__tel" id="form-tel" type="tel" name="form-tel" placeholder="Phone Number">
-                    <label class="form__select-label visually-hidden" for="form-select">Select Service:</label>
-                    <select class="form__select" name="service" id="form-select">
-                        <option disabled selected style="display:none;">Select Service</option>
-                        <option>Service-1</option>
-                        <option>Service-2</option>
-                        <option>Service-3</option>
-                    </select>
-                    <button class="form__button button" type="submit">Submit Now</button>
-                </form>
+                <div class="contact__left">
+                    <h2 class="contact__title title">Contact</h2>
+                    <p class="contact__text">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+                </div>
+                <div class="contact__right">
+                    <form class="contact__form form" action="https://echo.htmlacademy.ru" method="post">
+                        <label class="form__first-label visually-hidden" for="first-name">First Name:</label>
+                        <input class="form__input form__first-name" id="first-name" type="text" name="first-name" placeholder="First Name">
+                        <label class="modal-label visually-hidden" for="last-name">Last Name:</label>
+                        <input class="form__input form__last-name" id="last-name" type="text" name="last-name" placeholder="Last Name">
+                        <label class="form__tel-label visually-hidden" for="form-tel">Phone Number:</label>
+                        <input class="form__input form__tel" id="form-tel" type="tel" name="form-tel" placeholder="Phone Number">
+                        <label class="form__select-label visually-hidden" for="form-select">Select Service:</label>
+                        <select class="form__select" name="service" id="form-select">
+                            <option disabled selected style="display:none;">Select Service</option>
+                            <option>Service-1</option>
+                            <option>Service-2</option>
+                            <option>Service-3</option>
+                        </select>
+                        <button class="form__button button" type="submit">Submit Now</button>
+                    </form>
+                </div>
             </section>
         </div>
     </main>

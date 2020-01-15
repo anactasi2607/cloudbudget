@@ -1,0 +1,21 @@
+.form__first-name,
+.form__last-name {
+    width: 255px;
+    padding: 21px 10px 20px 31px;
+
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.form__input,
+.form__select {
+    padding: 21px 10px 20px 31px;
+
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.form__tel,
+.form__select {
+    width: 540px;
+}
