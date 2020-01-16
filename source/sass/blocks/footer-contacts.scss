@@ -1,22 +1,24 @@
 .footer-contacts {
-    width: 260px;
+  width: 260px;
 }
 
 .footer-contacts__email {
-    @include zero;
-    margin-bottom: 5px;
+  @include zero;
+
+  margin-bottom: 5px;
 }
 
 .footer-contacts__tel {
-    color: #000000;
+  color: #000000;
 }
 
 .footer-contacts__list {
-    @include list;
-    display: flex;
-    padding: 17px 0;
+  @include list;
+
+  display: flex;
+  padding: 17px 0;
 }
 
 .footer-contacts__item:not(:last-child) {
-    margin-right: 12px;
+  margin-right: 12px;
 }

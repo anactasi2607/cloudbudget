@@ -1,8 +1,9 @@
 .address {
-    width: 254px;
+  width: 254px;
 }
 
 .address__text {
-    @include zero;
-    padding-right: 80px;
+  @include zero;
+
+  padding-right: 80px;
 }

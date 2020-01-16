@@ -1,6 +1,7 @@
 .site-list {
- @include list;
- display: flex;
+  @include list;
+
+  display: flex;
 }
 
 .site-list__link {
