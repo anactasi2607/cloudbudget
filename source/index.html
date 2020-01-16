@@ -85,7 +85,7 @@
                             <h3 class="features__item-title">Cloud Budget Management Software</h3>
                             <p class="features__item-text">Our software is made so you can access and manage your budget</p>
                             <a class="features__item-link" href="#">Read More</a>
-                        </div class="features__item-block">
+                        </div>
                     </li>
                 </ul>
             </section>
@@ -154,12 +154,14 @@
                         <label class="form__tel-label visually-hidden" for="form-tel">Phone Number:</label>
                         <input class="form__input form__tel" id="form-tel" type="tel" name="form-tel" placeholder="Phone Number">
                         <label class="form__select-label visually-hidden" for="form-select">Select Service:</label>
-                        <select class="form__select" name="service" id="form-select">
-                            <option disabled selected style="display:none;">Select Service</option>
-                            <option>Service-1</option>
-                            <option>Service-2</option>
-                            <option>Service-3</option>
-                        </select>
+                        <div class="form__select-wrapper">
+                            <select class="form__select" name="service" id="form-select">
+                                <option class="form__select-option" disabled selected style="display:none;">Select Service</option>
+                                <option>Service-1</option>
+                                <option>Service-2</option>
+                                <option>Service-3</option>
+                            </select>
+                        </div>
                         <button class="form__button button" type="submit">Submit Now</button>
                     </form>
                 </div>
