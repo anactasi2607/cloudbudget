@@ -23,7 +23,7 @@
 }
 
 .form__first-name {
-  margin-right: 26px;
+  margin-right: 25px;
 }
 
 .form__button {
@@ -43,6 +43,10 @@
   color: rgba(19, 39, 67, 0.5);
   background-color: #ffffff;
   appearance: none;
+}
+
+.form__select::-ms-expand {
+  display: none;
 }
 
 .form__select-wrapper {
